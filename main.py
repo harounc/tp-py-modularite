@@ -30,4 +30,7 @@ elif op == "*":
 elif op == "/":
   resultat = operations.division(a, b)
 
+elif op == "%":
+  resultat = operations.modulo(a, b)
+
 print(f"Le résultat de {a} {op} {b} est: {resultat} ")
